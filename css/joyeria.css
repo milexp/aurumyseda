@@ -1,0 +1,116 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F7F6E4;
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
+    background-color: #D4C098 ;
+    color:black;
+    font-family: "Borel", cursive;
+}
+.icono{
+    background-color: #ebe0b4a2;
+    margin-top: 25px;
+}
+h4{
+    background-color: #ebe0b4a2;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+h1{
+    font-family: "Tangerine", cursive;
+    font-size: 60px;
+    padding-top: 30px;
+}
+h2{
+    font-family: "Tangerine", cursive;
+    font-size: 50px;
+    margin-left: 25px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://i.pinimg.com/736x/77/5e/44/775e447b21df6afb569ff5f06e824c8b.jpg);
+    background-size: cover; 
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    background-color: #E2D5C1;
+    border-radius: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 20px;
+    
+}
+#subtitulo{
+    display: flex;
+    align-items: start;
+    background-color: #E2D5C1;   
+    border-radius: 100px;
+    margin-right:1100px;
+}
+.carrito {
+    margin: 10px;
+    border: solid 1px  #D4C098;
+    border-radius: 10%;
+}
+#catalogo1{
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #D4C098;
+    border-radius: 5%;
+    font-family: "Borel", cursive;
+}
+#catalogo2{
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #D4C098;
+    border-radius: 5%;
+    font-family: "Borel", cursive;
+}
+.imagen{
+    background-color: #E2D5C1;
+    border-radius: 10%;
+    padding: 10px;
+}
+.img{
+    border-radius: 15%;
+}
+
+footer{
+    margin-top: 100px;
+    background-image: url(https://i.pinimg.com/736x/77/5e/44/775e447b21df6afb569ff5f06e824c8b.jpg);
+    background-size: cover; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+#contacto{
+    margin-left: 100px;
+    background-color: #D4C098;
+    border-radius: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contacto2{
+    font-family: "Tangerine", cursive;
+    font-size: 40px;
+}
+#logof{
+    margin-right: 300px;
+    background-color: #D4C098;
+    padding: 10px;
+    border-radius: 5%;
+}
+button:hover{
+    background-color: #D4C098;
+}

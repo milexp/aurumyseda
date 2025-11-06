@@ -1,0 +1,105 @@
+body{
+    background-color: #F6F6E2;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    justify-content:space-between ;
+    background-color: #D4C098 ;
+    color:black;
+    font-family: "Borel", cursive;
+}
+.icono{
+    background-color: #ebe0b4a2;
+    margin-top: 25px;
+}
+h4{
+    background-color: #ebe0b4a2;
+    padding: 10px;
+    border-radius: 10%;
+}
+#inicio{
+    background-image: url(https://i.pinimg.com/736x/77/5e/44/775e447b21df6afb569ff5f06e824c8b.jpg);
+    background-size: cover; 
+    display: flex; 
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+#titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 200px;
+    background-color: #ecdcc5;
+    border-radius: 10%;
+    padding: 10px;
+}
+#logo{
+    margin-right: 200px;
+    background-color: #D4C098;
+    padding: 10px;
+    border-radius: 5%;
+}
+h2{
+    font-family: "Tangerine", cursive;
+    font-size: 50px;
+}
+h1{
+    font-family: "Tangerine", cursive;
+    font-size: 60px;
+}
+h3{
+    font-family: "Tangerine", cursive;
+    font-size: 40px;
+}
+#imagenes{
+    display: flex; flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #E2D5C1;
+    border-radius: 5%;
+    padding: 10px;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5%;
+    background-color: #D4C098;
+    padding: 10px;
+}
+button:hover{
+    background-color: #E2D5C1;
+}
+button{
+    font-family: "Tangerine", cursive;
+    font-size: 30px; 
+    border-radius: 12px;    
+    background-color: #D4C098;
+    padding: 12px 24px;
+    margin-top: 15px;
+}
+footer{
+    background-image: url(https://i.pinimg.com/736x/77/5e/44/775e447b21df6afb569ff5f06e824c8b.jpg);
+    background-size: cover; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+#contacto{
+    margin-left: 100px;
+    background-color: #D4C098;
+    border-radius: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#logof{
+    margin-right: 300px;
+    background-color: #D4C098;
+    padding: 10px;
+    border-radius: 5%;
+}
